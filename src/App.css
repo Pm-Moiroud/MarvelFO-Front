@@ -1,1 +1,18 @@
-/* Other rules */
+* {
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  object-fit: cover;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-overflow: ellipsis;
+}
+
+body {
+  background-color: rgb(43, 42, 42);
+}
+
+.loading-page span {
+  color: white;
+}

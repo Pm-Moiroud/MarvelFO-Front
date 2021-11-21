@@ -1,0 +1,75 @@
+.form-container-background {
+  height: 100vh;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 150px;
+  font-size: 30px;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border: 1px solid white;
+  padding-left: 15px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox input {
+  width: 15px;
+  margin-right: 10px;
+  border-bottom: 1px solid black;
+}
+
+.form-container button {
+  height: 50px;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px 0 10px 0;
+  cursor: pointer;
+}
+
+.form p {
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+  margin-bottom: 20px;
+  line-height: 15px;
+}
+
+.already-user {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.need-help {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.btn-submit-form {
+  background-color: grey;
+}
