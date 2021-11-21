@@ -60,7 +60,7 @@ const Comics = ({ skipNumber, setSkipNumber }) => {
             onChange={(e) =>
               setParams((prevParams) => ({
                 ...prevParams,
-                name: e.target.value,
+                title: e.target.value,
               }))
             }
             placeholder="Chercher des articles"
